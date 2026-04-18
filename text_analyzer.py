@@ -1,3 +1,11 @@
+documents = [
+    "Shashank is a software developer",
+    "",
+    "16155",
+    "Coding is fun Coding is fun"
+]
+
+
 def normalize(doc):
     return doc.strip().lower()
 
@@ -16,3 +24,5 @@ def word_count(doc):
 print(normalize("     Shashank is a Software Developer     "))
 print(is_valid("12345"))
 print(word_count("Shashak ajhdb edakhdb akhbe wefbahefb ehdwekuyg wkahckyegh awedgywe gd aywegyuweg"))
+print(documents, len(documents))
+
